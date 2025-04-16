@@ -1,6 +1,7 @@
 name: Show Today's Date
 
 on: [push]
+  workflow_dispatch: 
 
 jobs:
   print-date:
